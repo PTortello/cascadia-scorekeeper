@@ -2,7 +2,7 @@
   "name": "scorekeeper",
   "private": true,
   "version": "1.0.0",
-  "homepage": "",
+  "homepage": "https://ptortello.github.io/cascadia-scorekeeper",
   "type": "module",
   "scripts": {
     "dev": "vite",
