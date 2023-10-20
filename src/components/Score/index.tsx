@@ -28,8 +28,20 @@ function Score({ bonus, score, onScoreChange }: ScoreProps) {
         <Button onClick={() => handleClick(-5)}>-5</Button>
         <Button onClick={() => handleClick(-1)}>-1</Button>
         <Display>
-          <Input type="number" id={score.label} value={score.count} readOnly />
-          {bonus && <Bonus type="number" value={2} readOnly />}
+          <Input
+            type="number"
+            name={score.label}
+            value={score.count}
+            readOnly
+          />
+          {bonus && (
+            <Bonus
+              type="number"
+              name={`bonus ${score.label}`}
+              value={2}
+              readOnly
+            />
+          )}
         </Display>
         <Button onClick={() => handleClick(1)}>+1</Button>
         <Button onClick={() => handleClick(5)}>+5</Button>
