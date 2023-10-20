@@ -1,5 +1,7 @@
+const KEY = "cascadiaScorekeeper";
+
 export const getScoreHistory = (): IScore[] => {
-  return JSON.parse(localStorage.getItem("scoreHistory") ?? "[]");
+  return JSON.parse(localStorage.getItem(KEY) ?? "[]");
 };
 
 export const setScoreHistory = (total: number) => {
@@ -9,5 +11,5 @@ export const setScoreHistory = (total: number) => {
     image: "",
     label: new Date().toString(),
   });
-  localStorage.setItem("scoreHistory", JSON.stringify(scoreHistory));
+  localStorage.setItem(KEY, JSON.stringify(scoreHistory));
 };
