@@ -7,4 +7,5 @@ export const Container = styled.div`
 
 export const Label = styled.span`
   margin-left: 8px;
+  font-size: 18px;
 `;
