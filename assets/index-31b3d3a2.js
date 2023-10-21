@@ -53,6 +53,7 @@ Error generating stack: `+i.message+`
   align-items: center;
 `,Bh=Y.span`
   margin-left: 8px;
+  font-size: 18px;
 `;function df({score:e}){return T.jsxs(Vh,{children:[T.jsx("img",{src:e.image,width:25}),T.jsx(Bh,{children:e.label})]})}const Wh=Y.div`
   width: 100%;
   margin-bottom: 8px;
