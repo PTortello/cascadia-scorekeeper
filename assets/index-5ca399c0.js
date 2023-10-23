@@ -94,7 +94,7 @@ Error generating stack: `+i.message+`
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0);
   color: #000000;
-`;function Si({bonus:e,score:t,onScoreChange:n}){const r=l=>{let i=t.count+l;i=Math.max(0,i),n({...t,count:i})};return T.jsxs(Wh,{children:[T.jsx(df,{score:t}),T.jsxs(Qh,{children:[T.jsx($r,{onClick:()=>r(-5),children:"-5"}),T.jsx($r,{onClick:()=>r(-1),children:"-1"}),T.jsxs(Kh,{children:[T.jsx(Yh,{type:"number",name:t.label,value:t.count,readOnly:!0}),e&&T.jsx(Xh,{type:"number",name:`bonus ${t.label}`,value:2,readOnly:!0})]}),T.jsx($r,{onClick:()=>r(1),children:"+1"}),T.jsx($r,{onClick:()=>r(5),children:"+5"})]})]})}const Gh=Y.div`
+`;function Si({bonus:e,score:t,onScoreChange:n}){const r=l=>{let i=t.count+l;i=Math.max(0,i),n({...t,count:i})};return T.jsxs(Wh,{children:[T.jsx(df,{score:t}),T.jsxs(Qh,{children:[T.jsx($r,{onClick:()=>r(-5),children:"-5"}),T.jsx($r,{onClick:()=>r(-1),children:"-1"}),T.jsxs(Kh,{children:[T.jsx(Yh,{"aria-label":t.label,name:t.label,type:"number",value:t.count,readOnly:!0}),e&&T.jsx(Xh,{"aria-label":`bonus ${t.label}`,name:`bonus ${t.label}`,type:"number",value:2,readOnly:!0})]}),T.jsx($r,{onClick:()=>r(1),children:"+1"}),T.jsx($r,{onClick:()=>r(5),children:"+5"})]})]})}const Gh=Y.div`
   position: absolute;
   top: 0px;
   left: 0px;
