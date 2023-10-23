@@ -7,7 +7,7 @@ interface ScoreLabelProps {
 function ScoreLabel({ score }: ScoreLabelProps) {
   return (
     <Container>
-      <img src={score.image} width={25} />
+      <img src={score.image} alt={score.label} width={25} />
       <Label>{score.label}</Label>
     </Container>
   );
