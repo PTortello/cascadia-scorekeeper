@@ -1,0 +1,15 @@
+{
+  "short_name": "CascadiaScorekeeper",
+  "name": "Pedro Tortello Cascadia Scorekeeper",
+  "icons": [
+    {
+      "src": "assets/images/logo187.webp",
+      "type": "image/webp",
+      "sizes": "187x187"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
