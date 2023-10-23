@@ -54,7 +54,7 @@ Error generating stack: `+i.message+`
 `,Bh=Y.span`
   margin-left: 8px;
   font-size: 18px;
-`;function df({score:e}){return T.jsxs(Vh,{children:[T.jsx("img",{src:e.image,width:25}),T.jsx(Bh,{children:e.label})]})}const Wh=Y.div`
+`;function df({score:e}){return T.jsxs(Vh,{children:[T.jsx("img",{src:e.image,alt:e.label,width:25}),T.jsx(Bh,{children:e.label})]})}const Wh=Y.div`
   width: 100%;
   margin-bottom: 8px;
   display: flex;
