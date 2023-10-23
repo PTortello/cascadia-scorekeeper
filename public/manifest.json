@@ -3,6 +3,11 @@
   "name": "Pedro Tortello Cascadia Scorekeeper",
   "icons": [
     {
+      "src": "assets/images/pwa-196x196.webp",
+      "type": "image/webp",
+      "sizes": "196x196"
+    },
+    {
       "src": "assets/images/pwa-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
