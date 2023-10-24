@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio",
-  "name": "Pedro Tortello Portfolio Zelda Theme",
+  "short_name": "CascadiaScorekeeper",
+  "name": "Pedro Tortello Cascadia Scorekeeper",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,15 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo187.png",
+      "src": "logo196.png",
       "type": "image/png",
-      "sizes": "187x187"
+      "sizes": "196x196"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
